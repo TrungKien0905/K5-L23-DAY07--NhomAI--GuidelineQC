@@ -19,7 +19,9 @@ Bộ nhãn dùng để huấn luyện mô hình phát hiện người và phươ
 | `van` | Xe cỡ nhỏ có khoang kín nằm trong thân liền khối, với thân sau dạng hộp. | Van chở hàng hoặc chở người thân liền. | Xe tải có cabin và thùng kín tách rời, xe buýt cỡ lớn. |
 | `motorcycle` | Xe cơ giới hai bánh kiểu xe máy hoặc mô tô. | Xe số, scooter, mô tô. | Xe đạp, xích lô và tuk-tuk ba bánh. |
 | `person` | Người thật có phần cơ thể nhìn trực tiếp trong ảnh, kể cả người đang ngồi trên xe. | Người đi bộ, người lái xe, người ngồi sau. | Tượng, ma-nơ-canh và hình người trên biển quảng cáo. |
-| `ignore_region` | Vùng giới hạn mà các đối tượng trong phạm vi quá nhỏ hoặc quá dày để gán đáng tin cậy từng box. | Cụm xe máy ở xa không tách được từng xe. | Vùng chứa đối tượng đủ rõ để vẽ box riêng. |
+| `ignore_region` | Vùng giới hạn mà các đối tượng trong phạm vi quá nhỏ hoặc quá dày với đám đông từ 5 người trở lên để gán đáng tin cậy từng box. | Cụm xe máy ở xa không tách được từng xe. | Vùng chứa đối tượng đủ rõ để vẽ box riêng. |
+| `bus` | Phương tiện giao thông công cộng cỡ lớn chở trên 9 hành khách (chiều dài và thể tích vượt trội xe van). | Xe buýt nội đô, xe khách liên tỉnh, xe đưa đón học sinh cỡ lớn. | Xe van 16 chỗ (`van`), xe tải thùng kín (`truck`). |
+| `tuk_tuk` | Phương tiện 3 bánh cơ giới chở khách đặc thù có mui/khung xe che chở, phổ biến tại Nam/Đông Nam Á. | Xe lam, xe lôi máy, xe tuk-tuk chở khách du lịch. | Xe máy thông thường 2 bánh (`motorcycle`), ô tô con mini (`car`). |
 
 **R-01. Phạm vi.** Bỏ qua vật nhận diện rõ nhưng ngoài taxonomy, ví dụ xe đạp, tuk-tuk ba bánh, xe buýt cỡ lớn và động vật. Vẫn gán người thật trên các phương tiện đó nếu đủ điều kiện. Nếu chưa xác định được vật có thuộc taxonomy hay không và chưa có box đáng tin cậy, ghi vấn đề cấp ảnh để reviewer xem.
 
@@ -54,6 +56,8 @@ Bộ nhãn dùng để huấn luyện mô hình phát hiện người và phươ
 | `img_021`, `img_030` | Nhiều xe máy và người chen sát nhau | R-02, R-07 | Gán riêng các vật tách được. Khoanh gọn vùng xa hoặc cụm không tách được. | Chất lượng quan sát thay đổi theo từng vùng ảnh. |
 | `img_027`, `img_028` | Pickup trên bệ và pickup chở hình ngựa | R-04, R-05, R-08 | Kiểm tra ảnh gốc của `img_027` để phân biệt xe thật trưng bày với tượng xe. Ở `img_028`, gán pickup là `truck`, bỏ qua hình ngựa. | Quyết định phụ thuộc vào việc có xác định được xe thật hay không. |
 | `img_038` | Xe mô hình trong tủ | R-05 | Bỏ qua các xe mô hình trong tủ. | Đây là đồ trưng bày dạng thu nhỏ. |
+| `img_015` | Xe bị mờ | R-05 | Bỏ qua phần bị mờ chỉ đánh phần nhìn rõ. | Đây là xe đang di chuyển. |
+
 
 ## 5. QC và phiên bản
 

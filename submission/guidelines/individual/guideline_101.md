@@ -33,7 +33,7 @@ Bộ nhãn dùng để huấn luyện mô hình phát hiện người và phươ
 
 ## 3. Quy tắc vẽ box
 
-- **R-02. Phần nhìn thấy.** Vẽ hộp chữ nhật nhỏ nhất bao hết các phần nhìn thấy của cùng một vật. Khi vật bị che và phần nhìn thấy bị tách rời, bao các phần đó bằng một box nếu nhận ra chúng thuộc cùng một vật. Giữ box bên trong ảnh. Vật bị che hoàn toàn không có box.
+- **R-02. Phần nhìn thấy.** Vẽ hộp chữ nhật nhỏ nhất bao hết các phần nhìn thấy của cùng một vật. Khi vật bị che và phần nhìn thấy bị tách rời, bao các phần đó bằng một box nếu nhận ra chúng thuộc cùng một vật. Giữ box bên trong ảnh. Vật bị che hoàn toàn không có box. Nếu vật bị che quá nhiều vẫn ưu tiên đánh box nếu xác định được vật.
 - **R-03. Người và xe.** Vẽ một box cho xe và một box cho mỗi người đủ điều kiện. Box người bao cơ thể, quần áo và mũ đang đội. Box xe bao các phần cấu thành nhìn thấy như bánh, gương, tay lái và thân xe. Các box có thể chồng nhau.
 - **R-04. Xe chở hàng hoặc chở xe.** Vẽ một box cho xe chở, gồm cabin và phần thùng hoặc giàn chở gắn với xe. Mỗi xe thật đang được chở có box riêng nếu nhận diện được và phần nhìn thấy cao ít nhất 20 px. Hàng rời nằm ngoài biên xe không làm box xe rộng thêm.
 - **R-05. Vật giả và phản chiếu.** Bỏ qua tượng, ma-nơ-canh, xe mô hình, hình in, bóng đổ, phản chiếu trong gương hoặc mặt nước, và vùng lóe sáng. Nếu vật thật xuất hiện trực tiếp, gán phần vật thật nhìn thấy.

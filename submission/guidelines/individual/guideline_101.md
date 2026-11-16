@@ -1,4 +1,4 @@
-# Guideline gán nhãn — v0.1 — 101
+# Guideline gán nhãn — v1.0 — 101
 
 - Phiên bản: v1.0, bản đề xuất cá nhân dựa trên guideline v0
 - Ngày: 16/11/2026

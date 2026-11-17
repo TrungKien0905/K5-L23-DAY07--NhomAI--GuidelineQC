@@ -1,0 +1,71 @@
+case_id,image,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline,nguoi_chot,phieu_sua,kiem_lai,pham_vi
+C001,img_002.jpg,101,R-04,v1.1,101,"truck [132,152,792,387] / truck [129,208,796,332].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C002,img_002.jpg,101,"R-02, R-03",v1.1,101,"person [853,313,40,115] / person [851,315,47,115].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C003,img_002.jpg,101,R-02,v1.1,101,"car [721,270,99,125] / car [718,269,104,129].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C004,img_002.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_002.jpg — car [554,250,157,125] / car [555,250,160,134].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C005,img_004.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_004.jpg — person [580,153,87,195].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C006,img_004.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_004.jpg — person [178,124,140,310].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C007,img_007.jpg,101,R-01,v1.1,101,"Chờ sửa trong CVAT. img_007.jpg — car [381,129,268,284] / truck [376,125,276,292].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C008,img_007.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_007.jpg — truck [653,52,307,392] / truck [661,52,299,396].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C009,img_007.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_007.jpg — car [381,129,268,284] / truck [376,125,276,292].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C010,img_008.jpg,101,"R-01, R-03",v1.1,101,"Chờ sửa trong CVAT. img_008.jpg — motorcycle [122,224,28,57].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C011,img_008.jpg,101,"R-01, R-03",v1.1,101,"Chờ sửa trong CVAT. img_008.jpg — motorcycle [121,222,30,60].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C012,img_012.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_012.jpg — car [330,286,59,113].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C013,img_012.jpg,Đề xuất sau đối chiếu ảnh: đổi car thành truck vì xe pickup có thùng hàng hở tách rõ với cabin.,R-01,v1.1,101,"Đã đổi car thành truck tại img_012.jpg, box vòng 1 #126. Đã bỏ cờ can_review sau khi xác định lớp.",Đã đối chiếu lớp xe với ảnh gốc. Chờ nhóm xác nhận và duyệt toàn ảnh.,anh
+C014,img_012.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_012.jpg — truck [314,207,168,155] / truck [312,205,169,120].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C015,img_012.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_012.jpg — truck [314,207,168,155] / truck [312,205,169,120].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C016,img_014.jpg,101,"R-02, R-03",v1.1,101,"Chờ sửa trong CVAT. img_014.jpg — person [640,181,196,502] / person [628,178,239,508].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C017,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — ignore_region [0,0,956,357].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C018,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — ignore_region [254,60,164,154].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C019,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — ignore_region [488,78,472,128].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C020,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [457,200,55,90].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C021,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [133,119,76,270].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C022,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [84,148,67,193].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C023,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [923,148,37,130].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C024,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [233,104,49,259].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C025,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [304,148,54,177].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C026,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [159,53,35,52].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C027,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [191,92,63,52].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C028,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [128,62,39,52].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C029,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [87,65,36,52].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C030,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [55,109,85,52].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C031,img_019.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [423,118,53,40].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C032,img_019.jpg,101,R-06,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — car [120,206,758,422].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C033,img_019.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_019.jpg — person [511,237,80,67] / person [518,237,75,65].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C034,img_022.jpg,101,"R-02, R-03",v1.1,101,"Chờ sửa trong CVAT. img_022.jpg — person [580,465,60,56] / person [587,465,52,44].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C035,img_022.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_022.jpg — person [580,465,60,56] / person [587,465,52,44].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C036,img_029.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — car [288,198,22,33].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C037,img_029.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — person [101,199,8,24].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C038,img_029.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — motorcycle [330,206,239,166].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C039,img_029.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — car [249,200,19,22].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C040,img_029.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — person [272,192,29,46].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C041,img_029.jpg,101,"R-01, R-02",v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — car [288,198,22,33].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C042,img_029.jpg,101,"R-02, R-03",v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — person [219,177,27,83] / person [218,172,29,94].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C043,img_029.jpg,101,"R-02, R-03",v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — person [108,178,43,94] / person [104,173,52,99].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C044,img_029.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — person [404,159,100,223] / person [400,160,116,222].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C045,img_029.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_029.jpg — person [346,186,24,34] / person [343,184,29,38].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C046,img_031.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — ignore_region [318,346,185,43].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C047,img_031.jpg,101,R-07,v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — ignore_region [326,351,159,23].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C048,img_031.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — motorcycle [406,379,23,40].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C049,img_031.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — person [202,364,14,57].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C050,img_031.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — person [214,373,16,48].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C051,img_031.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — person [232,373,25,27].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C052,img_031.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — bus [559,329,13,39].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C053,img_031.jpg,101,"R-02, R-03",v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — person [188,362,17,63] / person [186,361,21,64].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C054,img_031.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_031.jpg — car [571,310,114,115] / car [569,312,116,116].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C055,img_034.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — person [623,238,17,39].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C056,img_034.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — person [155,232,18,35].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C057,img_034.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — person [185,231,14,30].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C058,img_034.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — motorcycle [624,261,12,20].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C059,img_034.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — car [358,226,233,85] / car [358,226,234,87].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C060,img_034.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — person [863,158,97,309] / person [862,157,98,317].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C061,img_034.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — motorcycle [858,250,102,287] / motorcycle [854,251,106,283].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C062,img_034.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — person [822,222,51,77] / person [825,222,49,76].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C063,img_034.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_034.jpg — person [258,233,16,45] / person [260,234,15,44].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C064,img_040.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_040.jpg — bus [1,116,71,94].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C065,img_040.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_040.jpg — bus [99,0,375,132].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C066,img_040.jpg,101,"R-01, R-07",v1.1,101,"Chờ sửa trong CVAT. img_040.jpg — motorcycle [34,473,411,167].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C067,img_040.jpg,101,"R-01, R-02",v1.1,101,"Chờ sửa trong CVAT. img_040.jpg — bus [1,116,71,94].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C068,img_040.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_040.jpg — car [20,143,940,497] / car [17,140,943,500].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C069,img_040.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_040.jpg — person [482,103,343,537] / person [480,102,348,538].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh
+C070,img_040.jpg,101,R-02,v1.1,101,"Chờ sửa trong CVAT. img_040.jpg — tuktuk [306,62,554,345] / tuktuk [306,60,577,342].",Chờ reviewer đối chiếu ảnh gốc và COCO sau sửa.,anh

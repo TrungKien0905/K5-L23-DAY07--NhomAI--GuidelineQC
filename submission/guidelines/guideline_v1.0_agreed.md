@@ -22,7 +22,7 @@ Bộ nhãn dùng để huấn luyện mô hình phát hiện người và phươ
 | `person` | Người thật có phần cơ thể nhìn trực tiếp trong ảnh, kể cả người đang ngồi trên xe. | Người đi bộ, người lái xe, người ngồi sau. | Tượng, ma-nơ-canh và hình người trên biển quảng cáo. |
 | `ignore_region` | Vùng bỏ qua khi một cụm quá nhỏ hoặc quá dày để gán từng vật, hoặc khi quy tắc đám đông R-07 áp dụng. | Cụm người chen sát có hơn 5 người ở `img_021`. | Người hoặc xe đứng tách khỏi cụm, đủ rõ và đạt kích thước tối thiểu. |
 | `bus` | Xe buýt hoặc xe khách cỡ lớn, nhận diện qua thân dài, khoang hành khách lớn và cửa lên xuống. | Xe buýt đô thị, xe khách liên tỉnh. | Xe van thân liền dạng hộp cỡ nhỏ hoặc trung bình. |
-| `tuk_tuk` | Xe cơ giới ba bánh kiểu tuk-tuk hoặc xe lam, có khoang hoặc sàn chở khách/hàng riêng. | Tuk-tuk ở `img_004` và `img_035`. | Xe máy hai bánh, xích lô đạp. |
+| `tuktuk` | Xe cơ giới ba bánh kiểu tuk-tuk hoặc xe lam, có khoang hoặc sàn chở khách/hàng riêng. | Tuk-tuk ở `img_004` và `img_035`. | Xe máy hai bánh, xích lô đạp. |
 
 **R-01. Phạm vi.** Mỗi vật thật trong ảnh thuộc tối đa một lớp đối tượng. Bỏ qua vật ngoài taxonomy như xe đạp, xích lô đạp và động vật. Người thật ngồi trên hoặc điều khiển phương tiện ngoài taxonomy vẫn được gán `person` nếu đủ điều kiện. Phân biệt các lớp xe theo cấu tạo quan sát được trong ảnh. Nếu còn phân vân nhưng đã vẽ được box, tick `can_review`. Nếu chưa có box đáng tin cậy, ghi vấn đề cấp ảnh.
 
@@ -52,7 +52,7 @@ Bộ nhãn dùng để huấn luyện mô hình phát hiện người và phươ
 |---|---|---|---|---|
 | `img_005`, `img_026` | Người ngồi trên xe máy | R-02, R-03 | Gán từng `person` và từng `motorcycle` đủ điều kiện bằng box riêng. | Người và xe là các đối tượng độc lập, dù chồng lên nhau. |
 | `img_002` | Xe tải chở nhiều ô tô | R-04 | Gán xe chở là `truck`. Gán từng ô tô nhìn đủ rõ trên giàn theo lớp riêng. | Giàn thuộc xe chở. Mỗi ô tô trên giàn là một xe thật. |
-| `img_004`, `img_016`, `img_035` | Tuk-tuk ba bánh | R-01, R-04 | Gán `tuk_tuk` theo phần thân xe nhìn thấy, bỏ phần hàng rời nhô ra. Gán riêng người đủ điều kiện. | Hình dáng xe và khoang chở phân biệt được với xe máy hai bánh. |
+| `img_004`, `img_016`, `img_035` | Tuk-tuk ba bánh | R-01, R-04 | Gán `tuktuk` theo phần thân xe nhìn thấy, bỏ phần hàng rời nhô ra. Gán riêng người đủ điều kiện. | Hình dáng xe và khoang chở phân biệt được với xe máy hai bánh. |
 | `img_009` | Xe khách trên phố | R-01 | Dựa vào thân, khoang khách và cửa để phân biệt `bus` với `van`. Tick `can_review` nếu góc chụp chưa đủ rõ. | Số chỗ thường khó xác định trong ảnh. |
 | `img_014` | Vật thể bị nhòe khi di chuyển | R-09 | Bỏ qua các vật thể bị mờ, không vẽ box cho các vệt nhòe. Hai người đi bộ thấy rõ vẫn gán `person` riêng. | Có thể xác định biên hai người đi bộ nhưng không thể vẽ box đáng tin cậy cho các vật bị nhòe. |
 | `img_017`, `img_033` | Tượng cưỡi ngựa và ma-nơ-canh | R-05 | Bỏ qua tượng và ma-nơ-canh. | Đây là vật tạo hình người. |
